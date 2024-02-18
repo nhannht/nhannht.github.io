@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>🪴🌴🌹 Hortus von Nhannht</title>
+      <link>https://nhannht.github.io</link>
+      <description>Last 10 notes on 🪴🌴🌹 Hortus von Nhannht</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Engineering</title>
+    <link>https://nhannht.github.io/Engineering</link>
+    <guid>https://nhannht.github.io/Engineering</guid>
+    <description> Cloud and serverless era Golang .</description>
+    <pubDate>Sun, 18 Feb 2024 08:51:31 GMT</pubDate>
+  </item><item>
+    <title>Golang</title>
+    <link>https://nhannht.github.io/Golang</link>
+    <guid>https://nhannht.github.io/Golang</guid>
+    <description> Simpler + Go was designed for cloud and serverless era. .</description>
+    <pubDate>Sun, 18 Feb 2024 08:51:31 GMT</pubDate>
+  </item><item>
+    <title>Think</title>
+    <link>https://nhannht.github.io/Think</link>
+    <guid>https://nhannht.github.io/Think</guid>
+    <description> Trí thức .</description>
+    <pubDate>Sun, 18 Feb 2024 08:51:31 GMT</pubDate>
+  </item><item>
+    <title>!cite</title>
+    <link>https://nhannht.github.io/_templates/!cite</link>
+    <guid>https://nhannht.github.io/_templates/!cite</guid>
+    <description> Quote .</description>
+    <pubDate>Sun, 18 Feb 2024 08:51:31 GMT</pubDate>
+  </item><item>
+    <title>!faq</title>
+    <link>https://nhannht.github.io/_templates/!faq</link>
+    <guid>https://nhannht.github.io/_templates/!faq</guid>
+    <description> Question .</description>
+    <pubDate>Sun, 18 Feb 2024 08:51:31 GMT</pubDate>
+  </item><item>
+    <title>!info</title>
+    <link>https://nhannht.github.io/_templates/!info</link>
+    <guid>https://nhannht.github.io/_templates/!info</guid>
+    <description> Info .</description>
+    <pubDate>Sun, 18 Feb 2024 08:51:31 GMT</pubDate>
+  </item><item>
+    <title>!note</title>
+    <link>https://nhannht.github.io/_templates/!note</link>
+    <guid>https://nhannht.github.io/_templates/!note</guid>
+    <description> Note .</description>
+    <pubDate>Sun, 18 Feb 2024 08:51:31 GMT</pubDate>
+  </item><item>
+    <title>!tip</title>
+    <link>https://nhannht.github.io/_templates/!tip</link>
+    <guid>https://nhannht.github.io/_templates/!tip</guid>
+    <description> Tip .</description>
+    <pubDate>Sun, 18 Feb 2024 08:51:31 GMT</pubDate>
+  </item><item>
+    <title>!todo</title>
+    <link>https://nhannht.github.io/_templates/!todo</link>
+    <guid>https://nhannht.github.io/_templates/!todo</guid>
+    <description> Todo .</description>
+    <pubDate>Sun, 18 Feb 2024 08:51:31 GMT</pubDate>
+  </item><item>
+    <title>basic note</title>
+    <link>https://nhannht.github.io/_templates/basic-note</link>
+    <guid>https://nhannht.github.io/_templates/basic-note</guid>
+    <description></description>
+    <pubDate>Sun, 18 Feb 2024 08:51:31 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
