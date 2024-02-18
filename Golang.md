@@ -1,0 +1,1 @@
+- ~~Simpler~~ + Go  was designed for cloud and serverless era. 

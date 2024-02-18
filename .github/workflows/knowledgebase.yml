@@ -1,0 +1,43 @@
+name: build knowledgebase
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    permissions: write-all
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: set up npm
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: clone nhannht/knowledgebase-template
+        run: |
+          cd ..
+          git clone https://github.com/nhannht/knowledgebase-template
+          cd -
+      - name: start build
+        run: |
+          doc_dir=$(pwd)
+          
+          cd ../knowledgebase-template
+          rm ./content/* -rf
+          npm install
+          cp -r $doc_dir/* ./content
+          sed -i 's/%%title%%/🪴🌴🌹 Hortus von Nhannht/g' ./quartz.config.ts
+          sed -i 's/%%baseUrl%%/nhannht.github.io/g' ./quartz.config.ts
+          
+          npx quartz build
+          cd $doc_dir
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./knowledgebase-template/public
+          user_name: nhannht
+          user_email: nhanclassroom@gmail.com
